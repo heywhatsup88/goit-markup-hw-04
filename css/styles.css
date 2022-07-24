@@ -315,6 +315,7 @@ body {
     gap: 10px;
 
     margin-top: 16px;
+    margin-bottom: 30px;
 }
 
 .social-list-link {
@@ -331,12 +332,12 @@ body {
     fill: #AFB1B8;
 }
 
-.social-list-link:hover,
-.social-list-link:focus {
+.social-list-link:hover .social-list-icon,
+.social-list-link:focus .social-list-icon {
     background-color: var(--accent-color);
 }
 
-.social-list-icon:hover,
+.social-list-icon:hover
 .social-list-icon:focus {
     fill: var(--background-color)
 }
