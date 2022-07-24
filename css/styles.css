@@ -30,7 +30,6 @@ img {
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    /* outline: 2px solid tomato; */
 }
 
 .section-list {
@@ -313,6 +312,9 @@ body {
 .social-list {
     display: flex;
     justify-content: center;
+    gap: 10px;
+
+    margin-top: 16px;
 }
 
 .social-list-link {
@@ -323,6 +325,20 @@ body {
     height: 44px;
     border-radius: 50%;
     background-color: var(--background-color);
+}
+
+.social-list-link:hover,
+.social-list-link:focus {
+    background-color: var(--accent-color);
+}
+
+.social-list-icon:hover,
+.social-list-icon:focus {
+    fill: var(--background-color)
+}
+
+.social-list-icon {
+    fill: #AFB1B8;
 }
 
 .team {
