@@ -310,6 +310,10 @@ body {
     text-align: center;
 }
 
+.social-list {
+    display: flex;
+}
+
 .social-list-link {
     display: flex;
     justify-content: center;
