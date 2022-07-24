@@ -182,8 +182,8 @@ body {
     color: var(--accent-color);
 }
 
-.contact-link-icon:hover,
-.contact-link-icon:focus {
+.contacts-link:hover .contact-link-icon,
+.contacts-link:hover .contact-link-icon {
     fill: var(--accent-color);
 }
 
