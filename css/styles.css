@@ -337,8 +337,8 @@ body {
     background-color: var(--accent-color);
 }
 
-.social-list-icon:hover
-.social-list-icon:focus {
+.social-list-link:hover .social-list-icon
+.social-list-link:hover .social-list-icon {
     fill: var(--background-color)
 }
 
