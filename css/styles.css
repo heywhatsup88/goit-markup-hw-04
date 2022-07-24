@@ -310,6 +310,16 @@ body {
     text-align: center;
 }
 
+.social-list-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: var(--background-color);
+}
+
 .team {
     background-color: #F5F4FA;
 }
