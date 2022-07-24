@@ -5,6 +5,7 @@
     --sections-color: #2F303A;
     --text-color: #757575;
     --contacts-link: #FFFFFF60;
+    --icon-color: #AFB1B8
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -129,11 +130,14 @@ body {
 }
 
 .header .contacts-link {
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--text-color);
+    margin-left: 0;
 }
 
 .nav-link {
@@ -255,6 +259,18 @@ body {
     background-color: #188CE8
 }
 
+/* .visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+} */
 
 .advantages-title {
     margin-bottom: 10px;
@@ -328,7 +344,7 @@ body {
 }
 
 .social-list-icon {
-    fill: #AFB1B8;
+    fill: var(--icon-color);
 }
 
 .social-list-link:hover .social-list-icon,
@@ -344,6 +360,31 @@ body {
 
 .team {
     background-color: #F5F4FA;
+}
+
+.clients-list {
+    display: flex;
+    gap: 30px;
+}
+
+.clients-item {
+    width: calc((100% - 150px) / 6);
+}
+
+.clients-link {
+    height: 92px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--icon-color);
+    border-radius: 4px;
+    fill: var(--icon-color);
+}
+
+.clients-link:hover,
+.clients-link:focus {
+    fill: var(--accent-color);
+    border: 1px solid var(--accent-color);
 }
 
 
