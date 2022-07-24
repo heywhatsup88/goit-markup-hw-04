@@ -183,7 +183,7 @@ body {
 }
 
 .contacts-link:hover .contact-link-icon,
-.contacts-link:hover .contact-link-icon {
+.contacts-link:focus .contact-link-icon {
     fill: var(--accent-color);
 }
 
@@ -239,7 +239,7 @@ body {
 .hero .button {
     border: none;
     padding: 10px 32px;
-    /* margin-bottom: 200px; */
+
     color: var(--background-color);
     background: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -338,7 +338,7 @@ body {
 }
 
 .social-list-link:hover .social-list-icon
-.social-list-link:hover .social-list-icon {
+.social-list-link:focus .social-list-icon {
     fill: var(--background-color)
 }
 
