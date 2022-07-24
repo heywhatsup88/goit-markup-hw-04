@@ -85,14 +85,14 @@
           <!-- projects -->
 
           <ul class="projects-list">
-            <li>
+            <li class="projects-item">
               <img src="./images/portfolio/1.jpg" alt="Технокряк" width="370" />
               <div class="projects-card">
                 <h2 class="projects-title">Технокряк</h2>
                 <p class="projects-description">Веб-сайт</p>
               </div>
             </li>
-            <li>
+            <li class="projects-item">
               <img
                 src="./images/portfolio/2.jpg"
                 alt="Постер New Orlean vs Golden Star"
@@ -103,7 +103,7 @@
                 <p class="projects-description">Дизайн</p>
               </div>
             </li>
-            <li>
+            <li class="projects-item">
               <img
                 src="./images/portfolio/3.jpg"
                 alt="Ресторан Seafood"
@@ -114,7 +114,7 @@
                 <p class="projects-description">Приложение</p>
               </div>
             </li>
-            <li>
+            <li class="projects-item">
               <img
                 src="./images/portfolio/4.jpg"
                 alt="Проект Prime"
@@ -125,7 +125,7 @@
                 <p class="projects-description">Маркетинг</p>
               </div>
             </li>
-            <li>
+            <li class="projects-item">
               <img
                 src="./images/portfolio/5.jpg"
                 alt="Проект Boxes"
@@ -136,7 +136,7 @@
                 <p class="projects-description">Приложение</p>
               </div>
             </li>
-            <li>
+            <li class="projects-item">
               <img
                 src="./images/portfolio/6.jpg"
                 alt="Inspiration has no Borders"
@@ -147,7 +147,7 @@
                 <p class="projects-description">Веб-сайт</p>
               </div>
             </li>
-            <li>
+            <li class="projects-item">
               <img
                 src="./images/portfolio/7.jpg"
                 alt="Издание Limited Edition"
@@ -158,7 +158,7 @@
                 <p class="projects-description">Дизайн</p>
               </div>
             </li>
-            <li>
+            <li class="projects-item">
               <img
                 src="./images/portfolio/8.jpg"
                 alt="Проект LAB"
@@ -169,7 +169,7 @@
                 <p class="projects-description">Маркетинг</p>
               </div>
             </li>
-            <li>
+            <li class="projects-item">
               <img
                 src="./images/portfolio/9.jpg"
                 alt="Growing Business"
@@ -188,34 +188,70 @@
     <!-- footer -->
 
     <footer class="footer">
-      <div class="container">
-        <a href="./index.html" class="logo">
-          <span class="accent">Web</span><span class="studio">Studio</span>
-        </a>
-        <address class="address">
-          <ul>
-            <li class="item">
-              <a
-                href="https://goo.gl/maps/4YTj8nZPd8LjC2Ac9"
-                class="address-link"
-                target="_blank"
-                rel="noopener norefferer"
-              >
-                г. Киев, пр-т Леси Украинки, 26
+      <div class="footer container">
+        <div class="footer-address">
+          <a href="./index.html" class="logo">
+            <span class="accent">Web</span><span class="studio">Studio</span>
+          </a>
+          <address class="address">
+            <ul>
+              <li class="item">
+                <a
+                  href="https://goo.gl/maps/4YTj8nZPd8LjC2Ac9"
+                  class="address-link"
+                  target="_blank"
+                  rel="noopener norefferer"
+                >
+                  г. Киев, пр-т Леси Украинки, 26
+                </a>
+              </li>
+              <li class="item">
+                <a href="mailto:info@example.com" class="contacts-link"
+                  >info@example.com</a
+                >
+              </li>
+              <li class="item">
+                <a href="tel:+380961111111" class="contacts-link"
+                  >+38 096 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+
+        <div class="footer-social">
+          <h3 class="footer-social-title">Присоединяйтесь</h3>
+          <ul class="footer-social-list">
+            <li class="footer-social-item">
+              <a class="footer-social-link" href="#">
+                <svg class="footer-social-icon" width="20px" height="20px">
+                  <use href="./images/sprite.svg#icon-instagram"></use>
+                </svg>
               </a>
             </li>
-            <li class="item">
-              <a href="mailto:info@example.com" class="contacts-link"
-                >info@example.com</a
-              >
+            <li class="footer-social-item">
+              <a class="footer-social-link" href="#">
+                <svg class="footer-social-icon" width="20px" height="20px">
+                  <use href="./images/sprite.svg#icon-twitter"></use>
+                </svg>
+              </a>
             </li>
-            <li class="item">
-              <a href="tel:+380961111111" class="contacts-link"
-                >+38 096 111 11 11</a
-              >
+            <li class="footer-social-item">
+              <a class="footer-social-link" href="#">
+                <svg class="footer-social-icon" width="20px" height="20px">
+                  <use href="./images/sprite.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-item">
+              <a class="footer-social-link" href="#">
+                <svg class="footer-social-icon" width="20px" height="20px">
+                  <use href="./images/sprite.svg#icon-linkedin"></use>
+                </svg>
+              </a>
             </li>
           </ul>
-        </address>
+        </div>
       </div>
     </footer>
   </body>
