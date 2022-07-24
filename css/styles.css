@@ -25,6 +25,8 @@ img {
     height: auto;
 }
 
+
+
 .container {
     width: 1200px;
     margin-left: auto;
@@ -509,9 +511,15 @@ body {
     color: var(--contacts-link);
 }
 
-.footer-social {
+.footer .container {
+    display: flex;
+    align-items: baseline;
+}
+
+ .footer-social {
     margin-left: 70px;
 }
+
 
 .footer-social-title {
     margin-top: 0;
