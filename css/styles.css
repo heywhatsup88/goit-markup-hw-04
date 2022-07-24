@@ -312,6 +312,7 @@ body {
 
 .social-list {
     display: flex;
+    justify-content: center;
 }
 
 .social-list-link {
