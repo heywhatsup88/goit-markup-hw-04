@@ -222,9 +222,13 @@ body {
     margin-right: auto;
     background-color: #C4C4C4;
     background-image: linear-gradient(
+        to right,
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)), 
-        url(../images/img.jpg)
+        url(../images/img.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
 }
 
 .hero-title {
@@ -321,7 +325,7 @@ body {
 }
 
 .team-descprition {
-    margin-bottom: 30px; 
+    margin-bottom: 16px; 
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
@@ -332,7 +336,7 @@ body {
     justify-content: center;
     gap: 10px;
     
-    margin-bottom: 30px;
+    padding-bottom: 30px;
 }
 
 .social-list-link {
@@ -455,13 +459,16 @@ body {
     line-height: 1.87;
 }
 
-.projects-card { 
-    border: 1px solid #ccc;
+/* .projects-card { 
+    
     border-top: none;
-}
+} */
 
 .projects-item {
+    display: block;
+    border: 1px solid #ccc;
     cursor: pointer;
+    flex-basis: calc((100% - 60px) / 3);
 }
 
 .projects-item:hover,
@@ -473,6 +480,7 @@ body {
 }
 
 .projects-title {
+    color: var(--primary-text-color);
     margin-bottom: 4px;
     padding-top: 20px;
     padding-left: 24px;
