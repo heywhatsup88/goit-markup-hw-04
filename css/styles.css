@@ -541,6 +541,11 @@ body {
     color: var(--contacts-link);
 }
 
+.footer .contacts-link:hover,
+.footer .contacts-link:focus {
+    color: var(--accent-color);
+}
+
 .footer .container {
     display: flex;
     align-items: baseline;
