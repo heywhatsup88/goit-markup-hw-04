@@ -459,16 +459,15 @@ body {
     line-height: 1.87;
 }
 
-/* .projects-card { 
-    
-    border-top: none;
-} */
-
 .projects-item {
     display: block;
     border: 1px solid #ccc;
     cursor: pointer;
     flex-basis: calc((100% - 60px) / 3);
+}
+
+.projects-link {
+    display: block;
 }
 
 .projects-link:hover,
